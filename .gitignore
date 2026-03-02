@@ -1,0 +1,13 @@
+# Runtime directories - auto-created by script
+AdbDebloat_Logs/
+AdbDebloat_Backups/
+
+# ADB platform-tools binaries - user supplies their own
+platform-tools/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# PowerShell
+*.ps1xml
