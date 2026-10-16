@@ -1,0 +1,680 @@
+{
+  "com.google.android.apps.tachyon": {
+    "label": "Google Meet",
+    "list": "google",
+    "removal": "recommended",
+    "description": "Video calls (formerly Duo). Safe to remove if you do not use it."
+  },
+  "com.google.android.videos": {
+    "label": "Google TV",
+    "list": "google",
+    "removal": "recommended",
+    "description": "Films and shows bought on Google Play (formerly Play Movies & TV)."
+  },
+  "com.google.android.apps.wellbeing": {
+    "label": "Digital Wellbeing",
+    "list": "google",
+    "removal": "advanced",
+    "description": "Screen time, app timers and bedtime mode. Its page in Settings disappears with it."
+  },
+  "com.google.android.feedback": {
+    "label": "Google Feedback",
+    "list": "google",
+    "removal": "recommended",
+    "description": "Sends crash and feedback reports from Google apps to Google."
+  },
+  "com.google.android.partnersetup": {
+    "label": "Google Partner Setup",
+    "list": "google",
+    "removal": "advanced",
+    "description": "Lets apps from the phone maker use Google services, such as search in the maker's launcher."
+  },
+  "com.google.android.onetimeinitializer": {
+    "label": "Google One Time Init",
+    "list": "google",
+    "removal": "recommended",
+    "description": "Runs once at the first start of the phone to set up Google apps; not needed after that."
+  },
+  "com.google.android.printservice.recommendation": {
+    "label": "Print Service Recommendation",
+    "list": "aosp",
+    "removal": "advanced",
+    "description": "Suggests print plugins from the Play Store when you print. Printing itself keeps working."
+  },
+  "com.google.android.apps.docs": {
+    "label": "Google Drive",
+    "list": "google",
+    "removal": "recommended",
+    "description": "Google's cloud storage app."
+  },
+  "com.google.android.apps.photos": {
+    "label": "Google Photos",
+    "list": "google",
+    "removal": "recommended",
+    "description": "Google's photo backup and gallery. Keep another gallery app if you remove it."
+  },
+  "com.google.android.apps.maps": {
+    "label": "Google Maps",
+    "list": "google",
+    "removal": "recommended",
+    "description": "Maps and navigation. Other apps that open a map ask for another maps app."
+  },
+  "com.google.android.youtube": {
+    "label": "YouTube",
+    "list": "google",
+    "removal": "recommended",
+    "description": "The YouTube app. YouTube still works in a browser."
+  },
+  "com.google.android.apps.youtube.music": {
+    "label": "YouTube Music",
+    "list": "google",
+    "removal": "recommended",
+    "description": "Google's music streaming app."
+  },
+  "com.google.android.music": {
+    "label": "Google Play Music",
+    "list": "google",
+    "removal": "recommended",
+    "description": "Google's old music app, replaced by YouTube Music."
+  },
+  "com.google.android.gm": {
+    "label": "Gmail",
+    "list": "google",
+    "removal": "recommended",
+    "description": "Google's mail app."
+  },
+  "com.google.android.apps.googleassistant": {
+    "label": "Google Assistant",
+    "list": "google",
+    "removal": "recommended",
+    "description": "A shortcut that opens the Assistant; the Assistant itself lives in the Google app."
+  },
+  "com.google.android.googlequicksearchbox": {
+    "label": "Google app",
+    "list": "google",
+    "removal": "advanced",
+    "description": "Search, Discover and the Assistant. Some launchers show its search bar and feed."
+  },
+  "com.google.android.marvin.talkback": {
+    "label": "TalkBack",
+    "list": "google",
+    "removal": "advanced",
+    "description": "Android's screen reader. Keep it if you or someone using the phone needs it."
+  },
+  "com.google.android.storagemanager": {
+    "label": "Storage Manager",
+    "list": "oem",
+    "removal": "expert",
+    "description": "Frees space and powers the storage page in Settings."
+  },
+  "com.google.android.syncadapters.contacts": {
+    "label": "Google Contacts Sync",
+    "list": "google",
+    "removal": "advanced",
+    "description": "Syncs contacts with your Google account. Without it, contacts stop syncing."
+  },
+  "com.google.android.syncadapters.calendar": {
+    "label": "Google Calendar Sync",
+    "list": "google",
+    "removal": "advanced",
+    "description": "Syncs calendars with your Google account. Without it, events stop syncing."
+  },
+  "com.android.chrome": {
+    "label": "Chrome",
+    "list": "google",
+    "removal": "advanced",
+    "description": "Google's browser. On Android 7 to 9 it can also be the WebView other apps show web pages with; keep it there unless Android System WebView is installed."
+  },
+  "com.google.android.gms": {
+    "label": "Google Play services",
+    "list": "google",
+    "removal": "expert",
+    "description": "Most apps from the Play Store need it for sign-in, notifications and location. Removing it breaks many apps."
+  },
+  "com.android.vending": {
+    "label": "Google Play Store",
+    "list": "google",
+    "removal": "expert",
+    "description": "Installs and updates apps. Apps bought on Play check for it."
+  },
+  "com.google.android.webview": {
+    "label": "Android System WebView",
+    "list": "google",
+    "removal": "expert",
+    "description": "Shows web pages inside apps. Many apps break without it."
+  },
+  "com.miui.msa.global": {
+    "label": "MIUI System Ads",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Shows ads in Xiaomi's own apps and collects usage data for them."
+  },
+  "com.miui.systemAdSolution": {
+    "label": "MIUI Ad Solution",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Ad service of MIUI, used for splash screen and in-app ads."
+  },
+  "com.miui.analytics": {
+    "label": "MIUI Analytics",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Collects usage statistics and sends them to Xiaomi."
+  },
+  "com.miui.daemon": {
+    "label": "MIUI Daemon",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Background service that collects device and usage data for Xiaomi."
+  },
+  "com.miui.hybrid": {
+    "label": "Quick Apps",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Runs Xiaomi's quick apps (small web apps) and their ads."
+  },
+  "com.miui.hybrid.accessory": {
+    "label": "Quick Apps Accessory",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "A helper for Quick Apps."
+  },
+  "com.miui.bugreport": {
+    "label": "MIUI Bug Report",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Sends bug reports and feedback to Xiaomi."
+  },
+  "com.miui.klo.bugreport": {
+    "label": "KLO Bug Report",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Collects crash logs for Xiaomi."
+  },
+  "com.xiaomi.mipicks": {
+    "label": "GetApps",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Xiaomi's app store. Apps from it keep working; they stop getting updates from it."
+  },
+  "com.miui.yellowpage": {
+    "label": "Yellow Pages",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Business caller ID and directory, mostly for China and India."
+  },
+  "com.miui.videoplayer": {
+    "label": "Mi Video",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Xiaomi's video player, with suggested online videos."
+  },
+  "com.miui.player": {
+    "label": "Mi Music",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Xiaomi's music player."
+  },
+  "com.mi.globalbrowser": {
+    "label": "Mi Browser",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Xiaomi's browser, with news feeds and ads."
+  },
+  "com.miui.weather2": {
+    "label": "Weather",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Xiaomi's weather app and its widget."
+  },
+  "com.miui.cleanmaster": {
+    "label": "Cleaner",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Xiaomi's junk file cleaner."
+  },
+  "com.miui.personalassistant": {
+    "label": "App Vault",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "The cards page left of the home screen."
+  },
+  "com.miui.compass": {
+    "label": "Compass",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Xiaomi's compass app."
+  },
+  "com.miui.cloudservice": {
+    "label": "Xiaomi Cloud",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Syncs photos, contacts and notes with Xiaomi Cloud. Without it, that sync stops."
+  },
+  "com.miui.cloudbackup": {
+    "label": "Xiaomi Cloud Backup",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Backs the phone up to Xiaomi Cloud."
+  },
+  "com.xiaomi.gamecenter": {
+    "label": "Game Center",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Xiaomi's game store."
+  },
+  "com.xiaomi.gamecenter.sdk.service": {
+    "label": "Game Center Service",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Sign-in and payments for games from Xiaomi's Game Center."
+  },
+  "com.xiaomi.glgm": {
+    "label": "Games",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Xiaomi's games portal."
+  },
+  "com.miui.mishare.connectivity": {
+    "label": "ShareMe",
+    "list": "oem",
+    "removal": "advanced",
+    "description": "Sends files to nearby Xiaomi phones. The share menu loses this option."
+  },
+  "com.miui.voiceassist": {
+    "label": "Voice Assistant",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Xiaomi's voice assistant."
+  },
+  "com.miui.notes": {
+    "label": "Notes",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Xiaomi's notes app. Notes are kept on the phone while it is removed, but copy them out first if they matter."
+  },
+  "com.miui.fm": {
+    "label": "FM Radio",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "The FM radio app."
+  },
+  "com.miui.screenrecorder": {
+    "label": "Screen Recorder",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Xiaomi's screen recorder."
+  },
+  "com.miui.scan": {
+    "label": "Scanner",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Xiaomi's QR code and document scanner."
+  },
+  "com.miui.global.kitchenstory": {
+    "label": "Kitchen Stories",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "A recipe app installed by Xiaomi."
+  },
+  "com.miui.gallery": {
+    "label": "Gallery",
+    "list": "oem",
+    "removal": "advanced",
+    "description": "Xiaomi's gallery. Keep another gallery app if you remove it; the camera opens photos with it."
+  },
+  "com.miui.contentcatcher": {
+    "label": "Content Catcher",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Reads what is on the screen to suggest actions."
+  },
+  "com.miui.phrase": {
+    "label": "Frequent Phrases",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Saved phrases for the keyboard."
+  },
+  "com.miui.virtualsim": {
+    "label": "Mi Roaming",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Xiaomi's paid virtual SIM for travel."
+  },
+  "com.miui.calculator": {
+    "label": "Calculator",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Xiaomi's calculator."
+  },
+  "com.miui.miservice": {
+    "label": "Services & Feedback",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Xiaomi's support and feedback app."
+  },
+  "com.miui.android.fashiongallery": {
+    "label": "Wallpaper Carousel",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Changes the lock screen wallpaper and shows ads with it."
+  },
+  "com.mi.android.globalFileexplorer": {
+    "label": "File Manager",
+    "list": "oem",
+    "removal": "advanced",
+    "description": "Xiaomi's file manager. Keep another file manager if you remove it."
+  },
+  "com.xiaomi.account": {
+    "label": "Xiaomi Account",
+    "list": "oem",
+    "removal": "advanced",
+    "description": "Signs in to Xiaomi services. Xiaomi Cloud, Find Device and the theme store need it."
+  },
+  "com.miui.powerkeeper": {
+    "label": "Battery & Performance",
+    "list": "oem",
+    "removal": "expert",
+    "description": "MIUI's battery saver and app background limits. Removing it can drain the battery or stop notifications."
+  },
+  "com.miui.home": {
+    "label": "System Launcher",
+    "list": "oem",
+    "removal": "expert",
+    "description": "MIUI's home screen. Recent apps and gestures need it on most MIUI versions, even with another launcher."
+  },
+  "com.miui.aod": {
+    "label": "Always-on Display",
+    "list": "oem",
+    "removal": "advanced",
+    "description": "The always-on display and its settings."
+  },
+  "com.miui.systemui.plugin": {
+    "label": "System UI Plugin",
+    "list": "oem",
+    "removal": "expert",
+    "description": "Parts of the control center and notification shade."
+  },
+  "com.xiaomi.finddevice": {
+    "label": "Find Device",
+    "list": "oem",
+    "removal": "expert",
+    "description": "Locates and locks a lost phone. Removing it can trigger the anti-theft lock on some phones."
+  },
+  "com.android.updater": {
+    "label": "System Updater",
+    "list": "oem",
+    "removal": "expert",
+    "description": "Downloads and installs system updates."
+  },
+  "com.xiaomi.xmsf": {
+    "label": "Xiaomi Service Framework",
+    "list": "oem",
+    "removal": "expert",
+    "description": "Push notifications for Xiaomi apps and some others."
+  },
+  "com.miui.mms": {
+    "label": "Messaging",
+    "list": "oem",
+    "removal": "advanced",
+    "description": "Xiaomi's SMS app. Keep another SMS app if you remove it."
+  },
+  "com.samsung.android.bixby.agent": {
+    "label": "Bixby Voice",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Samsung's voice assistant."
+  },
+  "com.samsung.android.bixby.wakeup": {
+    "label": "Bixby Wake-up",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Listens for \"Hi, Bixby\"."
+  },
+  "com.samsung.android.app.spage": {
+    "label": "Samsung Free",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "The news and media page left of the home screen (formerly Bixby Home)."
+  },
+  "com.samsung.android.app.tips": {
+    "label": "Tips",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Samsung's tips app."
+  },
+  "com.samsung.android.weather.nativeapp": {
+    "label": "Samsung Weather",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Samsung's weather app and its widget."
+  },
+  "com.samsung.android.game.gamehome": {
+    "label": "Game Launcher",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Samsung's games folder and store."
+  },
+  "com.samsung.android.game.gametools": {
+    "label": "Game Booster",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "The overlay and performance settings while a game runs."
+  },
+  "com.sec.android.app.samsungapps": {
+    "label": "Galaxy Store",
+    "list": "oem",
+    "removal": "expert",
+    "description": "Samsung's app store. Updates of Samsung's own apps come from it."
+  },
+  "com.samsung.android.voc": {
+    "label": "Samsung Members",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Samsung's community and diagnostics app."
+  },
+  "com.samsung.android.app.soundassistant": {
+    "label": "SoundAssistant",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Samsung's sound settings app from the Galaxy Store."
+  },
+  "com.samsung.android.smartswitchassistant": {
+    "label": "Smart Switch Assistant",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Helps move data from an old phone."
+  },
+  "com.sec.android.app.chromecustomizations": {
+    "label": "Chrome Customizations",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Samsung's bookmarks and settings for Chrome."
+  },
+  "com.samsung.android.kidsinstaller": {
+    "label": "Samsung Kids Installer",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Installs Samsung Kids when it is turned on."
+  },
+  "com.samsung.android.arzone": {
+    "label": "AR Zone",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Samsung's augmented reality camera features."
+  },
+  "com.samsung.android.aremoji": {
+    "label": "AR Emoji",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Animated avatars made from your face."
+  },
+  "com.sec.android.app.sbrowser": {
+    "label": "Samsung Internet",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Samsung's browser. Keep another browser if you remove it."
+  },
+  "com.samsung.android.email.provider": {
+    "label": "Samsung Email",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Samsung's mail app."
+  },
+  "com.samsung.android.calendar": {
+    "label": "Samsung Calendar",
+    "list": "oem",
+    "removal": "advanced",
+    "description": "Samsung's calendar. Keep another calendar app if you remove it."
+  },
+  "com.samsung.android.app.watchmanagerplugin": {
+    "label": "Galaxy Watch plugin",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Connects a Galaxy Watch."
+  },
+  "com.samsung.android.dialer": {
+    "label": "Phone",
+    "list": "oem",
+    "removal": "advanced",
+    "description": "Samsung's phone app. Without another phone app you cannot make calls."
+  },
+  "com.samsung.android.messaging": {
+    "label": "Messages",
+    "list": "oem",
+    "removal": "advanced",
+    "description": "Samsung's SMS app. Keep another SMS app if you remove it."
+  },
+  "com.samsung.android.lool": {
+    "label": "Device care",
+    "list": "oem",
+    "removal": "advanced",
+    "description": "Battery, storage and memory page in Settings."
+  },
+  "com.sec.android.app.launcher": {
+    "label": "One UI Home",
+    "list": "oem",
+    "removal": "expert",
+    "description": "Samsung's home screen. Recent apps and gestures need it."
+  },
+  "com.heytap.market": {
+    "label": "App Market",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "OPPO's and realme's app store."
+  },
+  "com.oppo.market": {
+    "label": "OPPO App Market",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "OPPO's older app store."
+  },
+  "com.heytap.themestore": {
+    "label": "Theme Store",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Themes and wallpapers."
+  },
+  "com.nearme.gamecenter": {
+    "label": "Game Center",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "OPPO's game store."
+  },
+  "com.coloros.weather2": {
+    "label": "Weather",
+    "list": "oem",
+    "removal": "expert",
+    "description": "ColorOS weather; the clock and lock screen widgets use it."
+  },
+  "com.coloros.filemanager": {
+    "label": "My Files",
+    "list": "oem",
+    "removal": "advanced",
+    "description": "The file manager. Keep another file manager if you remove it."
+  },
+  "com.coloros.findmyphone": {
+    "label": "Find My Phone",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Locates a lost phone through your HeyTap account."
+  },
+  "com.realme.ota": {
+    "label": "Software Update",
+    "list": "oem",
+    "removal": "expert",
+    "description": "Downloads and installs system updates."
+  },
+  "com.oplus.games": {
+    "label": "Games",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "OnePlus and OPPO games folder and overlay."
+  },
+  "com.oneplus.brickmode": {
+    "label": "Zen Mode",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Locks the phone for a while so you take a break."
+  },
+  "com.oneplus.logkit": {
+    "label": "LogKit",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Collects logs for OnePlus support."
+  },
+  "com.heytap.pictorial": {
+    "label": "Lock Screen Magazine",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Changes the lock screen wallpaper and shows content with it."
+  },
+  "com.oppo.oauthsdk": {
+    "label": "HeyTap Sign-in",
+    "list": "oem",
+    "removal": "advanced",
+    "description": "Signs in to OPPO services."
+  },
+  "com.nearme.statistics.rom": {
+    "label": "System Statistics",
+    "list": "oem",
+    "removal": "recommended",
+    "description": "Collects usage statistics for OPPO."
+  },
+  "com.facebook.appmanager": {
+    "label": "Facebook App Manager",
+    "list": "misc",
+    "removal": "recommended",
+    "description": "Keeps preinstalled Facebook apps updated, even when you do not use them."
+  },
+  "com.facebook.services": {
+    "label": "Facebook Services",
+    "list": "misc",
+    "removal": "recommended",
+    "description": "Background service for preinstalled Facebook apps."
+  },
+  "com.facebook.system": {
+    "label": "Facebook App Installer",
+    "list": "misc",
+    "removal": "recommended",
+    "description": "Installs Facebook apps."
+  },
+  "com.facebook.katana": {
+    "label": "Facebook",
+    "list": "misc",
+    "removal": "recommended",
+    "description": "The Facebook app."
+  },
+  "com.netflix.partner.activation": {
+    "label": "Netflix Activation",
+    "list": "misc",
+    "removal": "recommended",
+    "description": "Lets the phone maker earn from Netflix sign-ups."
+  },
+  "com.android.browser": {
+    "label": "Browser",
+    "list": "aosp",
+    "removal": "advanced",
+    "description": "The old Android browser. Keep another browser if you remove it."
+  }
+}
