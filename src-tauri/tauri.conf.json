@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "adbDebloat",
+  "version": "2.0.0",
+  "identifier": "com.bugragungoz.adbdebloat",
+  "build": {
+    "beforeDevCommand": "npm run dev:web",
+    "devUrl": "http://localhost:5173",
+    "beforeBuildCommand": "npm run build:web",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "adbDebloat",
+        "width": 1200,
+        "height": 800,
+        "minWidth": 960,
+        "minHeight": 620,
+        "center": true,
+        "backgroundColor": "#131110"
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src ipc: http://ipc.localhost"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis", "msi"],
+    "publisher": "bugragungoz",
+    "copyright": "MIT License",
+    "category": "Utility",
+    "shortDescription": "Remove the apps your Android phone came with, safely and reversibly",
+    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"]
+  }
+}

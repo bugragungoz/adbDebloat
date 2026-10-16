@@ -1,0 +1,18 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "What the adbDebloat window may use.",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "opener:allow-reveal-item-in-dir",
+    {
+      "identifier": "opener:allow-open-url",
+      "allow": [
+        { "url": "https://github.com/bugragungoz/*" },
+        { "url": "https://github.com/Universal-Debloater-Alliance/*" },
+        { "url": "https://developer.android.com/*" }
+      ]
+    }
+  ]
+}
