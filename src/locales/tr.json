@@ -1,0 +1,377 @@
+{
+  "common": {
+    "close": "Kapat",
+    "cancel": "Vazgeç",
+    "clearSearch": "Aramayı temizle"
+  },
+  "nav": {
+    "label": "Sayfalar",
+    "phone": "Telefon",
+    "apps": "Uygulamalar",
+    "history": "Geçmiş",
+    "settings": "Ayarlar"
+  },
+  "time": {
+    "never": "hiç",
+    "now": "az önce",
+    "minutesAgo": {
+      "one": "{count} dk önce",
+      "other": "{count} dk önce"
+    },
+    "hoursAgo": {
+      "one": "{count} sa önce",
+      "other": "{count} sa önce"
+    },
+    "daysAgo": {
+      "one": "{count} gün önce",
+      "other": "{count} gün önce"
+    }
+  },
+  "status": {
+    "starting": "adb aranıyor...",
+    "noAdb": "adb yok",
+    "adb": "adb {version}",
+    "noPhone": "Bağlı telefon yok",
+    "demo": "Örnek veri",
+    "demoHint": "Bu sayfa tarayıcıda çalışıyor, bu yüzden uydurma bir telefon gösteriyor.",
+    "listCommunity": "Topluluk listesi, {count} paket",
+    "listBuiltin": "Yerleşik liste, {count} paket",
+    "version": "adbDebloat {version}",
+    "github": "GitHub'da adbDebloat"
+  },
+  "phone": {
+    "title": "Telefon",
+    "subtitle": "Bir Android telefonu USB kabloyla ya da Wi-Fi üzerinden bağlayın. adbDebloat onunla Google'ın hata ayıklama aracı adb üzerinden konuşur; telefonun root'lu olması gerekmez.",
+    "adbMissingTitle": "adbDebloat'ın adb'ye ihtiyacı var",
+    "adbMissingBody": "adb, Google'ın platform-tools paketinde gelir. adbDebloat bunu (yaklaşık 7 MB) kendi klasörüne indirebilir; bilgisayarda başka hiçbir şey değişmez.",
+    "adbBrokenTitle": "adb çalışmıyor",
+    "adbBrokenBody": "Bulunan adb yanıt vermiyor: {detail} Yeni bir kopya indirin ya da Ayarlar'dan başka birini seçin.",
+    "download": "platform-tools'u indir",
+    "downloading": "platform-tools indiriliyor...",
+    "downloadedOf": "{done} / {total}",
+    "adbReady": "adb {version} hazır.",
+    "haveAdb": "Elimdeki adb'yi kullan",
+    "terms": "İndirme Google'dan gelir ve Google'ın koşullarına tabidir:",
+    "termsLink": "platform-tools sürüm notları ve koşulları",
+    "connectTitle": "Telefonunuzu bağlayın",
+    "step1": "Telefonda Ayarlar'ı, ardından Telefon hakkında'yı açın ve Derleme numarasına (Xiaomi'de MIUI sürümüne) yedi kez dokunun. Geliştirici seçenekleri görünür.",
+    "step2": "Geliştirici seçeneklerinde USB hata ayıklama'yı açın.",
+    "step3": "Telefonu yalnızca şarj değil veri de taşıyan bir USB kabloyla bağlayın.",
+    "step4": "Telefonun kilidini açın ve sorduğunda bu bilgisayar için USB hata ayıklamaya izin verin. Bir daha sormaması için Her zaman izin ver'i işaretleyin.",
+    "xiaomiHint": "Xiaomi telefonlarda Geliştirici seçenekleri Ek ayarlar altındadır. USB hata ayıklama yeterlidir; adbDebloat'ın USB hata ayıklama (Güvenlik ayarları) seçeneğine ihtiyacı yoktur.",
+    "wifiTitle": "Wi-Fi üzerinden bağlan",
+    "wifiBody": "Android 11 ve sonrasında: Geliştirici seçeneklerinde Kablosuz hata ayıklama'yı açın, Eşleme kodu ile cihaz eşle'yi seçin ve gösterdiği adresi ve kodu yazın. Ardından Kablosuz hata ayıklama sayfasındaki adresle bağlanın. Telefon ve bu bilgisayar aynı ağda olmalı.",
+    "pairAddress": "Eşleme adresi",
+    "pairCode": "Eşleme kodu",
+    "pair": "Eşle",
+    "paired": "Eşlendi. Şimdi Kablosuz hata ayıklama sayfasındaki adresle bağlanın.",
+    "connectAddress": "Adres",
+    "connect": "Bağlan",
+    "connected": "Wi-Fi üzerinden bağlandı.",
+    "readyUsb": "Kabloyla bağlı",
+    "readyWifi": "Wi-Fi üzerinden bağlı",
+    "state": {
+      "ready": "Hazır",
+      "unauthorized": "İzin bekleniyor",
+      "offline": "Yanıt vermiyor",
+      "noPermission": "USB'ye erişim yok",
+      "otherMode": "Normal başlatılmamış"
+    },
+    "unauthorizedTitle": "Telefonda USB hata ayıklamaya izin verin",
+    "unauthorizedBody": "Telefon bu bilgisayarın anahtarıyla ilgili bir soru gösteriyor. Kilidi açın, Bu bilgisayardan her zaman izin ver'i işaretleyin ve İzin ver'i seçin. Soru görünmüyorsa kabloyu çıkarıp yeniden takın.",
+    "offlineTitle": "Telefon yanıt vermiyor",
+    "offlineBody": "Açılıyor, kilitli ya da uykuda olabilir. Kilidi açın; böyle kalırsa kabloyu çıkarın ya da USB hata ayıklamayı kapatıp yeniden açın.",
+    "noPermissionTitle": "Bu bilgisayar telefonu açamıyor",
+    "noPermissionBody": "Linux'ta Android cihazlar için bir udev kuralı ekleyin ve telefonu yeniden takın.",
+    "otherModeTitle": "Telefon kurtarma modunda ya da önyükleyicide",
+    "otherModeBody": "Uygulamalarını değiştirmek için telefonu normal başlatın.",
+    "android": "Android",
+    "androidValue": "{version} (API {sdk})",
+    "skin": "Yazılım",
+    "brand": "Üretici",
+    "codename": "Kod adı",
+    "serial": "Seri numarası",
+    "battery": "Pil",
+    "batteryValue": "%{level}",
+    "packages": "Paketler",
+    "packagesValue": "{total}, {off} kaldırılmış ya da devre dışı",
+    "toApps": "Kaldırılacak uygulamaları seç",
+    "useWifi": "Wi-Fi ile devam et",
+    "onWifi": "{address} adresinde Wi-Fi üzerinden bağlandı. Kablo çıkarılabilir.",
+    "disconnect": "Bağlantıyı kes",
+    "reboot": "Telefonu yeniden başlat",
+    "rebootTitle": "Telefon yeniden başlatılsın mı?",
+    "rebootBody": "Bazı değişiklikler, örneğin kaldırılan bir başlatıcı özelliği ya da ana ekran widget'ı, ancak yeniden başlatınca görünür. Önce telefondaki işinizi kaydedin.",
+    "rebooting": "Telefon yeniden başlıyor.",
+    "otherPhones": "Bağlı telefonlar"
+  },
+  "apps": {
+    "title": "Uygulamalar",
+    "subtitle": "Telefonda kurulu her şey, kaldırması en güvenli olanlar başta. Uygulamaları seçin, sonra kaldırın ya da devre dışı bırakın: bir şey değişmeden önce listeyi görürsünüz ve her şey geri yüklenebilir.",
+    "reload": "Yeniden oku",
+    "searchPlaceholder": "Ad ya da paket ara",
+    "showLabel": "Göster",
+    "showInstalled": "Kurulu",
+    "showOff": "Kaldırılan ve devre dışı",
+    "showAll": "Tümü",
+    "systemOnly": "Yalnızca telefonla gelen uygulamalar",
+    "levelsLabel": "Güvenlik düzeyleri",
+    "selectRecommended": "Önerilen {count} uygulamayı seç",
+    "count": {
+      "one": "{count} paket",
+      "other": "{count} paket"
+    },
+    "colApp": "Uygulama",
+    "colSafety": "Kaldırma",
+    "colState": "Durum",
+    "colKind": "Tür",
+    "system": "Hazır yüklü",
+    "user": "Sizin",
+    "selectShown": "Gösterilenlerin tümünü seç",
+    "select": "{name} uygulamasını seç",
+    "selected": {
+      "one": "{count} seçili",
+      "other": "{count} seçili"
+    },
+    "selectionLabel": "Seçim",
+    "clearSelection": "Temizle",
+    "empty": "Bu filtrelere uyan paket yok.",
+    "emptySearch": "\"{query}\" ile eşleşen paket yok.",
+    "reading": "Telefonun paketleri okunuyor...",
+    "readFailed": "Paketler okunamadı",
+    "noPhone": "Bağlı telefon yok",
+    "noPhoneBody": "Uygulamalarını görmek için Telefon sayfasından bir telefon bağlayın.",
+    "toPhone": "Telefon sayfasına git",
+    "kept": "adbDebloat bunu korur",
+    "whatItIs": "Nedir",
+    "noDescription": "İki liste de bu paketi tanımıyor. Kaldırmadan önce araştırın.",
+    "neededBy": "Buna ihtiyaç duyanlar",
+    "dependsOn": "İhtiyaç duydukları",
+    "apk": "APK"
+  },
+  "safety": {
+    "recommended": "Önerilen",
+    "advanced": "İleri",
+    "expert": "Uzman",
+    "unsafe": "Güvensiz",
+    "unknown": "Bilinmiyor",
+    "recommendedHint": "Neredeyse herkes için kaldırması güvenli: reklamlar, izleyiciler ve az kullanılan uygulamalar.",
+    "advancedHint": "Güvenli, ama kullanıyor olabileceğiniz bir şeyi kaldırır: galeri, mağaza ya da eşitleme gibi.",
+    "expertHint": "Önemli özellikleri ya da başka uygulamaları bozabilir. Yalnızca ne yaptığını biliyorsanız kaldırın.",
+    "unsafeHint": "Telefonun açılmamasına yol açabilir. adbDebloat bunu asla kaldırmaz."
+  },
+  "protection": {
+    "core": "Android ya da telefon bu olmadan çalışamaz.",
+    "unsafe": "Güvensiz olarak işaretli: kaldırmak telefonun açılmamasına yol açabilir.",
+    "launcher": "Kullanılan ana ekran bu. Önce telefonda başka bir ana ekran uygulaması seçin.",
+    "keyboard": "Kullanılan klavye bu; o olmadan bir PIN bile yazılamaz. Önce başka bir klavye seçin.",
+    "needsExpert": "Uzman olarak işaretli. Kaldırmak için Ayarlar'dan uzman modunu açın."
+  },
+  "list": {
+    "google": "Google",
+    "oem": "Telefon üreticisi",
+    "aosp": "Android",
+    "carrier": "Operatör",
+    "misc": "Başka bir şirket"
+  },
+  "state": {
+    "installed": "Kurulu",
+    "disabled": "Devre dışı",
+    "removed": "Kaldırıldı"
+  },
+  "action": {
+    "remove": "Kaldır",
+    "disable": "Devre dışı bırak",
+    "restore": "Geri yükle",
+    "removeCount": {
+      "one": "{count} kaldır",
+      "other": "{count} kaldır"
+    },
+    "disableCount": {
+      "one": "{count} devre dışı bırak",
+      "other": "{count} devre dışı bırak"
+    },
+    "restoreCount": {
+      "one": "{count} geri yükle",
+      "other": "{count} geri yükle"
+    }
+  },
+  "review": {
+    "title": {
+      "remove": {
+        "one": "{count} uygulama kaldırılsın mı?",
+        "other": "{count} uygulama kaldırılsın mı?"
+      },
+      "disable": {
+        "one": "{count} uygulama devre dışı bırakılsın mı?",
+        "other": "{count} uygulama devre dışı bırakılsın mı?"
+      },
+      "restore": {
+        "one": "{count} uygulama geri yüklensin mi?",
+        "other": "{count} uygulama geri yüklensin mi?"
+      }
+    },
+    "undoTitle": "Bu işlem geri alınsın mı?",
+    "explain": {
+      "remove": "Her uygulama sizin için (kullanıcı 0) kaldırılır. APK'sı telefonun sisteminde kalır ve verisi korunur; bu yüzden istediğiniz zaman buradan geri yüklenebilir. Fabrika ayarlarına sıfırlama da geri getirir.",
+      "disable": "Her uygulama kurulu kalır ama hiç çalışmaz ve simgesi kaybolur. Aralarında Xiaomi'nin de olduğu bazı üreticiler, adb'nin kendi uygulamalarını devre dışı bırakmasına izin vermez; onları kaldırın.",
+      "restore": "Her uygulama sizin için yeniden kurulur ya da yeniden açılır, verisiyle birlikte."
+    },
+    "will": {
+      "remove": {
+        "one": "{count} uygulama kaldırılacak",
+        "other": "{count} uygulama kaldırılacak"
+      },
+      "disable": {
+        "one": "{count} uygulama devre dışı bırakılacak",
+        "other": "{count} uygulama devre dışı bırakılacak"
+      },
+      "restore": {
+        "one": "{count} uygulama geri yüklenecek",
+        "other": "{count} uygulama geri yüklenecek"
+      }
+    },
+    "skipped": {
+      "one": "{count} uygulama olduğu gibi kalacak",
+      "other": "{count} uygulama olduğu gibi kalacak"
+    },
+    "riskyTitle": {
+      "one": "Buradaki {count} uygulama Önerilen olarak işaretli değil",
+      "other": "Buradaki {count} uygulama Önerilen olarak işaretli değil"
+    },
+    "riskyBody": "Her birinin ne yaptığını panelinde okuyun. Bir şey çalışmazsa uygulamayı Geçmiş'ten geri yükleyin.",
+    "expertTitle": "Uzman modu açık",
+    "expertBody": "Uzman olarak işaretli uygulamalar önemli özellikleri bozabilir. Onları birer birer kaldırın ve her birinden sonra telefonu deneyin.",
+    "start": {
+      "remove": {
+        "one": "{count} uygulamayı kaldır",
+        "other": "{count} uygulamayı kaldır"
+      },
+      "disable": {
+        "one": "{count} uygulamayı devre dışı bırak",
+        "other": "{count} uygulamayı devre dışı bırak"
+      },
+      "restore": {
+        "one": "{count} uygulamayı geri yükle",
+        "other": "{count} uygulamayı geri yükle"
+      }
+    },
+    "stop": "Bundan sonra dur",
+    "progress": "{total} uygulamanın {done} tanesi bitti...",
+    "finished": "Bitti: {ok} değişti, {failed} değişmedi.",
+    "stopped": "İşlem durdu",
+    "results": "Sonuçlar",
+    "ok": "Değişti",
+    "failed": "Değişmedi",
+    "alreadyRemoved": "Zaten kaldırılmış.",
+    "alreadyDisabled": "Zaten devre dışı.",
+    "removedNotDisabled": "Kaldırılmış, devre dışı bırakılacak bir şey yok.",
+    "alreadyInstalled": "Zaten kurulu ve açık.",
+    "tryRemove": "Telefon bazı uygulamaları devre dışı bırakmayı reddetti. Onları kaldırın: o da aynı şekilde geri alınabilir.",
+    "doneTitle": "Bitti",
+    "running": {
+      "remove": {
+        "one": "{count} uygulama kaldırılıyor",
+        "other": "{count} uygulama kaldırılıyor"
+      },
+      "disable": {
+        "one": "{count} uygulama devre dışı bırakılıyor",
+        "other": "{count} uygulama devre dışı bırakılıyor"
+      },
+      "restore": {
+        "one": "{count} uygulama geri yükleniyor",
+        "other": "{count} uygulama geri yükleniyor"
+      }
+    }
+  },
+  "failure": {
+    "device_admin": "Bu bir cihaz yöneticisi. Telefonun güvenlik ayarlarından bunu kapatıp yeniden deneyin.",
+    "disable_refused": "Telefonun üreticisi adb'nin bu uygulamayı devre dışı bırakmasına izin vermiyor. Onun yerine kaldırın.",
+    "refused": "Android reddetti.",
+    "unknown": "Telefonda bu paket yok.",
+    "nothing_to_do": "Değişecek bir şey yok.",
+    "protected": "adbDebloat'ın güvenlik kuralları korudu.",
+    "needs_expert": "Uzman olarak işaretli; uzman modu kapalı.",
+    "no_answer": "Telefon yanıt vermedi.",
+    "other": "Beklenmeyen yanıt:"
+  },
+  "history": {
+    "title": "Geçmiş",
+    "subtitle": "adbDebloat'ın her telefonda çalıştırdığı her işlem. Geri al, bir işlemin kaldırdığını ya da devre dışı bıraktığını geri yükler.",
+    "batch": {
+      "remove": {
+        "one": "{count} uygulama kaldırıldı",
+        "other": "{count} uygulama kaldırıldı"
+      },
+      "disable": {
+        "one": "{count} uygulama devre dışı bırakıldı",
+        "other": "{count} uygulama devre dışı bırakıldı"
+      },
+      "restore": {
+        "one": "{count} uygulama geri yüklendi",
+        "other": "{count} uygulama geri yüklendi"
+      }
+    },
+    "ok": "{count} değişti",
+    "failed": "{count} değişmedi",
+    "show": "Uygulamaları göster",
+    "hide": "Uygulamaları gizle",
+    "undo": "Geri al",
+    "otherPhone": "Bu işlemi geri almak için {name} telefonunu bağlayın.",
+    "empty": "Henüz bir şey değişmedi",
+    "emptyBody": "Uygulamalar sayfasında çalıştırdığınız işlemler burada listelenir."
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "appearance": "Görünüm",
+    "theme": "Tema",
+    "themeSystem": "Sistemle aynı",
+    "themeDark": "Koyu",
+    "themeLight": "Açık",
+    "language": "Dil",
+    "languageSystem": "Sistemle aynı",
+    "safety": "Güvenlik",
+    "expert": "Uzman modu",
+    "expertHint": "Uzman olarak işaretli uygulamalara izin verir. Güvensiz olarak işaretliler, kullanılan ana ekran ve klavye ve Android'in çekirdeği korunmaya devam eder.",
+    "expertTitle": "Uzman modu açılsın mı?",
+    "expertBody": "Uzman olarak işaretli uygulamalar aramaları, bildirimleri, güncellemeleri ya da başka uygulamaları bozabilir. Geri yüklenebilirler, ama yalnızca telefon hâlâ açılıyor ve adb hâlâ çalışıyorsa.",
+    "expertConfirm": "Aç",
+    "list": "Paket listesi",
+    "community": "Topluluk listesini kullan",
+    "communityHint": "Universal Android Debloater Next Generation'ın listesini (birkaç bin paket, GPL-3.0) GitHub'dan indirir ve haftada bir yeniler. Kapalıyken: yalnızca adbDebloat'ın yüz kadar yaygın uygulamalık kendi listesi.",
+    "listCommunity": "{count} paket, {ago} indirildi.",
+    "listBuiltin": "adbDebloat'ın kendi listesinden {count} paket.",
+    "updateList": "Şimdi güncelle",
+    "listUpdated": "Liste güncel: {count} paket.",
+    "communityPage": "Topluluk listesi hakkında",
+    "adb": "adb",
+    "adbInUse": "adb {version} kullanılıyor ({source}).",
+    "adbNone": "adb bulunamadı.",
+    "adbSource": {
+      "custom": "burada seçildi",
+      "managed": "adbDebloat indirdi",
+      "path": "PATH'te bulundu",
+      "sdk": "Android Studio'dan"
+    },
+    "adbPath": "Kullanılacak adb",
+    "adbPathPlaceholder": "Boş: kendin bul",
+    "adbPathHint": "Belirli birini istiyorsanız adb.exe'nin tam yolu. Yol olarak kopyala ile kopyalanmış bir yol olduğu gibi çalışır.",
+    "save": "Kaydet",
+    "about": "Hakkında",
+    "aboutBody": "adbDebloat, bir Android telefonun birlikte geldiği uygulamaları adb üzerinden ve root olmadan kaldırır ve her değişikliği geri alınabilir tutar.",
+    "version": "Sürüm {version}",
+    "source": "GitHub'da kaynak kodu",
+    "license": "MIT Lisansı. Topluluk listesi GPL-3.0'dır; uygulamaya dahil değildir, indirilir."
+  },
+  "errors": {
+    "no_adb": "Hata: adb kullanılamıyor. {detail}",
+    "adb_failed": "Hata: adb şunu söyledi: {detail}",
+    "busy": "Hata: çalışan işlemin ya da indirmenin bitmesini bekleyin.",
+    "invalid": "Hata: \"{detail}\" doğru değil. Bir adres 192.168.1.23:41235 gibi görünür, eşleme kodu altı rakamdır.",
+    "download_failed": "Hata: indirme başarısız oldu. {detail}",
+    "list_failed": "Hata: topluluk listesi güncellenemedi. {detail}",
+    "history_failed": "Hata: değişiklik yapıldı ama geçmiş kaydedilemedi. {detail}",
+    "settings_not_saved": "Hata: ayarlar kaydedilmedi. {detail}",
+    "internal": "Hata: {detail}"
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "common": {
+    "close": "Close",
+    "cancel": "Cancel",
+    "clearSearch": "Clear search"
+  },
+  "nav": {
+    "label": "Pages",
+    "phone": "Phone",
+    "apps": "Apps",
+    "history": "History",
+    "settings": "Settings"
+  },
+  "time": {
+    "never": "never",
+    "now": "just now",
+    "minutesAgo": {
+      "one": "{count} min ago",
+      "other": "{count} min ago"
+    },
+    "hoursAgo": {
+      "one": "{count} h ago",
+      "other": "{count} h ago"
+    },
+    "daysAgo": {
+      "one": "{count} day ago",
+      "other": "{count} days ago"
+    }
+  },
+  "status": {
+    "starting": "Looking for adb...",
+    "noAdb": "adb is missing",
+    "adb": "adb {version}",
+    "noPhone": "No phone connected",
+    "demo": "Demo data",
+    "demoHint": "This page runs in a browser, so it shows a made-up phone.",
+    "listCommunity": "Community list, {count} packages",
+    "listBuiltin": "Built-in list, {count} packages",
+    "version": "adbDebloat {version}",
+    "github": "adbDebloat on GitHub"
+  },
+  "phone": {
+    "title": "Phone",
+    "subtitle": "Connect an Android phone with a USB cable or over Wi-Fi. adbDebloat talks to it through adb, Google's debugging tool; the phone needs no root.",
+    "adbMissingTitle": "adbDebloat needs adb",
+    "adbMissingBody": "adb comes in Google's platform-tools. adbDebloat can download them (about 7 MB) into its own folder; nothing else on the computer changes.",
+    "adbBrokenTitle": "adb does not run",
+    "adbBrokenBody": "The adb found does not answer: {detail} Download a fresh copy, or choose another one in Settings.",
+    "download": "Download platform-tools",
+    "downloading": "Downloading platform-tools...",
+    "downloadedOf": "{done} of {total}",
+    "adbReady": "adb {version} is ready.",
+    "haveAdb": "Use an adb I have",
+    "terms": "The download comes from Google and is under its terms:",
+    "termsLink": "platform-tools release notes and terms",
+    "connectTitle": "Connect your phone",
+    "step1": "On the phone, open Settings, then About phone, and tap Build number (MIUI version on Xiaomi) seven times. Developer options appear.",
+    "step2": "In Developer options, turn on USB debugging.",
+    "step3": "Connect the phone with a USB cable that carries data, not only power.",
+    "step4": "Unlock the phone and allow USB debugging for this computer when it asks. Tick Always allow, so it does not ask again.",
+    "xiaomiHint": "On Xiaomi phones Developer options are under Additional settings. USB debugging is enough; adbDebloat does not need USB debugging (Security settings).",
+    "wifiTitle": "Connect over Wi-Fi",
+    "wifiBody": "On Android 11 and later: in Developer options open Wireless debugging, choose Pair device with pairing code, and type the address and code it shows. Then connect with the address on the Wireless debugging page. The phone and this computer must be on the same network.",
+    "pairAddress": "Pairing address",
+    "pairCode": "Pairing code",
+    "pair": "Pair",
+    "paired": "Paired. Now connect with the address on the Wireless debugging page.",
+    "connectAddress": "Address",
+    "connect": "Connect",
+    "connected": "Connected over Wi-Fi.",
+    "readyUsb": "Connected with a cable",
+    "readyWifi": "Connected over Wi-Fi",
+    "state": {
+      "ready": "Ready",
+      "unauthorized": "Waiting for permission",
+      "offline": "Not answering",
+      "noPermission": "No access to USB",
+      "otherMode": "Not started normally"
+    },
+    "unauthorizedTitle": "Allow USB debugging on the phone",
+    "unauthorizedBody": "The phone shows a question about this computer's key. Unlock it, tick Always allow from this computer, and choose Allow. If no question appears, unplug the cable and plug it in again.",
+    "offlineTitle": "The phone does not answer",
+    "offlineBody": "It may be starting, locked or asleep. Unlock it; if it stays like this, unplug the cable, or turn USB debugging off and on again.",
+    "noPermissionTitle": "This computer may not open the phone",
+    "noPermissionBody": "On Linux, add a udev rule for Android devices and plug the phone in again.",
+    "otherModeTitle": "The phone is in recovery or the bootloader",
+    "otherModeBody": "Start it normally to change its apps.",
+    "android": "Android",
+    "androidValue": "{version} (API {sdk})",
+    "skin": "Software",
+    "brand": "Maker",
+    "codename": "Codename",
+    "serial": "Serial number",
+    "battery": "Battery",
+    "batteryValue": "{level} %",
+    "packages": "Packages",
+    "packagesValue": "{total}, {off} removed or disabled",
+    "toApps": "Choose apps to remove",
+    "useWifi": "Continue over Wi-Fi",
+    "onWifi": "Connected over Wi-Fi at {address}. The cable can come out.",
+    "disconnect": "Disconnect",
+    "reboot": "Restart phone",
+    "rebootTitle": "Restart the phone?",
+    "rebootBody": "Some changes only show after a restart, such as a removed launcher feature or a home screen widget. Save your work on the phone first.",
+    "rebooting": "The phone is restarting.",
+    "otherPhones": "Connected phones"
+  },
+  "apps": {
+    "title": "Apps",
+    "subtitle": "Everything installed on the phone, the safest to remove first. Select apps, then remove or disable them: you see the list before anything changes, and everything can be restored.",
+    "reload": "Read again",
+    "searchPlaceholder": "Search name or package",
+    "showLabel": "Show",
+    "showInstalled": "Installed",
+    "showOff": "Removed and disabled",
+    "showAll": "All",
+    "systemOnly": "Only apps that came with the phone",
+    "levelsLabel": "Safety levels",
+    "selectRecommended": "Select {count} recommended",
+    "count": {
+      "one": "{count} package",
+      "other": "{count} packages"
+    },
+    "colApp": "App",
+    "colSafety": "Removal",
+    "colState": "State",
+    "colKind": "Type",
+    "system": "Preinstalled",
+    "user": "Yours",
+    "selectShown": "Select all shown",
+    "select": "Select {name}",
+    "selected": {
+      "one": "{count} selected",
+      "other": "{count} selected"
+    },
+    "selectionLabel": "Selection",
+    "clearSelection": "Clear",
+    "empty": "No package matches these filters.",
+    "emptySearch": "No package matches \"{query}\".",
+    "reading": "Reading the phone's packages...",
+    "readFailed": "The packages could not be read",
+    "noPhone": "No phone connected",
+    "noPhoneBody": "Connect a phone on the Phone page to see its apps.",
+    "toPhone": "Go to Phone",
+    "kept": "adbDebloat keeps this one",
+    "whatItIs": "What it is",
+    "noDescription": "Neither list knows this package. Look it up before you remove it.",
+    "neededBy": "Needed by",
+    "dependsOn": "Needs",
+    "apk": "APK"
+  },
+  "safety": {
+    "recommended": "Recommended",
+    "advanced": "Advanced",
+    "expert": "Expert",
+    "unsafe": "Unsafe",
+    "unknown": "Unknown",
+    "recommendedHint": "Safe to remove for almost everyone: ads, trackers and apps few people use.",
+    "advancedHint": "Safe, but it removes something you may use, such as a gallery, a store or a sync.",
+    "expertHint": "Can break important features or other apps. Remove only if you know what it does.",
+    "unsafeHint": "Can stop the phone from starting. adbDebloat never removes it."
+  },
+  "protection": {
+    "core": "Android or the phone cannot work without it.",
+    "unsafe": "Marked Unsafe: removing it can stop the phone from starting.",
+    "launcher": "It is the home screen in use. Choose another home app on the phone first.",
+    "keyboard": "It is the keyboard in use; without it nothing could be typed, not even a PIN. Choose another keyboard first.",
+    "needsExpert": "Marked Expert. Turn on expert mode in Settings to remove it."
+  },
+  "list": {
+    "google": "Google",
+    "oem": "Phone maker",
+    "aosp": "Android",
+    "carrier": "Carrier",
+    "misc": "Other company"
+  },
+  "state": {
+    "installed": "Installed",
+    "disabled": "Disabled",
+    "removed": "Removed"
+  },
+  "action": {
+    "remove": "Remove",
+    "disable": "Disable",
+    "restore": "Restore",
+    "removeCount": {
+      "one": "Remove {count}",
+      "other": "Remove {count}"
+    },
+    "disableCount": {
+      "one": "Disable {count}",
+      "other": "Disable {count}"
+    },
+    "restoreCount": {
+      "one": "Restore {count}",
+      "other": "Restore {count}"
+    }
+  },
+  "review": {
+    "title": {
+      "remove": {
+        "one": "Remove {count} app?",
+        "other": "Remove {count} apps?"
+      },
+      "disable": {
+        "one": "Disable {count} app?",
+        "other": "Disable {count} apps?"
+      },
+      "restore": {
+        "one": "Restore {count} app?",
+        "other": "Restore {count} apps?"
+      }
+    },
+    "undoTitle": "Undo this batch?",
+    "explain": {
+      "remove": "Each app is uninstalled for you (user 0). Its APK stays in the phone's system and its data is kept, so it can be restored here at any time; a factory reset also brings it back.",
+      "disable": "Each app stays installed but never runs and its icon disappears. Some makers, Xiaomi among them, do not let adb disable their own apps; remove those instead.",
+      "restore": "Each app is installed again for you, or switched back on, with the data it had."
+    },
+    "will": {
+      "remove": {
+        "one": "{count} app will be removed",
+        "other": "{count} apps will be removed"
+      },
+      "disable": {
+        "one": "{count} app will be disabled",
+        "other": "{count} apps will be disabled"
+      },
+      "restore": {
+        "one": "{count} app will be restored",
+        "other": "{count} apps will be restored"
+      }
+    },
+    "skipped": {
+      "one": "{count} app is left as it is",
+      "other": "{count} apps are left as they are"
+    },
+    "riskyTitle": {
+      "one": "{count} app here is not marked Recommended",
+      "other": "{count} apps here are not marked Recommended"
+    },
+    "riskyBody": "Read what each one does in its panel. If something stops working, restore the app from History.",
+    "expertTitle": "Expert mode is on",
+    "expertBody": "Apps marked Expert can break important features. Remove them one at a time and check the phone after each.",
+    "start": {
+      "remove": {
+        "one": "Remove {count} app",
+        "other": "Remove {count} apps"
+      },
+      "disable": {
+        "one": "Disable {count} app",
+        "other": "Disable {count} apps"
+      },
+      "restore": {
+        "one": "Restore {count} app",
+        "other": "Restore {count} apps"
+      }
+    },
+    "stop": "Stop after this one",
+    "progress": "{done} of {total} done...",
+    "finished": "Done: {ok} changed, {failed} not changed.",
+    "stopped": "The batch stopped",
+    "results": "Results",
+    "ok": "Changed",
+    "failed": "Not changed",
+    "alreadyRemoved": "Already removed.",
+    "alreadyDisabled": "Already disabled.",
+    "removedNotDisabled": "Removed, so there is nothing to disable.",
+    "alreadyInstalled": "Already installed and on.",
+    "tryRemove": "The phone refused to disable some apps. Remove them instead: it is just as reversible.",
+    "doneTitle": "Finished",
+    "running": {
+      "remove": {
+        "one": "Removing {count} app",
+        "other": "Removing {count} apps"
+      },
+      "disable": {
+        "one": "Disabling {count} app",
+        "other": "Disabling {count} apps"
+      },
+      "restore": {
+        "one": "Restoring {count} app",
+        "other": "Restoring {count} apps"
+      }
+    }
+  },
+  "failure": {
+    "device_admin": "It is a device administrator. Turn that off in the phone's security settings, then try again.",
+    "disable_refused": "The phone's maker does not let adb disable this app. Remove it instead.",
+    "refused": "Android refused.",
+    "unknown": "The phone does not have this package.",
+    "nothing_to_do": "Nothing to change.",
+    "protected": "Kept by adbDebloat's safety rules.",
+    "needs_expert": "Marked Expert; expert mode is off.",
+    "no_answer": "The phone did not answer.",
+    "other": "Unexpected answer:"
+  },
+  "history": {
+    "title": "History",
+    "subtitle": "Every batch adbDebloat ran, on every phone. Undo restores what a batch removed or disabled.",
+    "batch": {
+      "remove": {
+        "one": "Removed {count} app",
+        "other": "Removed {count} apps"
+      },
+      "disable": {
+        "one": "Disabled {count} app",
+        "other": "Disabled {count} apps"
+      },
+      "restore": {
+        "one": "Restored {count} app",
+        "other": "Restored {count} apps"
+      }
+    },
+    "ok": "{count} changed",
+    "failed": "{count} not changed",
+    "show": "Show apps",
+    "hide": "Hide apps",
+    "undo": "Undo",
+    "otherPhone": "Connect {name} to undo this batch.",
+    "empty": "Nothing changed yet",
+    "emptyBody": "Batches you run on the Apps page are listed here."
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": "Appearance",
+    "theme": "Theme",
+    "themeSystem": "Same as the system",
+    "themeDark": "Dark",
+    "themeLight": "Light",
+    "language": "Language",
+    "languageSystem": "Same as the system",
+    "safety": "Safety",
+    "expert": "Expert mode",
+    "expertHint": "Allows apps marked Expert. Apps marked Unsafe, the home screen and keyboard in use and the core of Android stay protected.",
+    "expertTitle": "Turn on expert mode?",
+    "expertBody": "Apps marked Expert can break calls, notifications, updates or other apps. They can be restored, but only while the phone still starts and adb still works.",
+    "expertConfirm": "Turn on",
+    "list": "Package list",
+    "community": "Use the community list",
+    "communityHint": "Downloads the list of Universal Android Debloater Next Generation (several thousand packages, GPL-3.0) from GitHub and refreshes it weekly. Off: only adbDebloat's own list of about a hundred common apps.",
+    "listCommunity": "{count} packages, downloaded {ago}.",
+    "listBuiltin": "{count} packages from adbDebloat's own list.",
+    "updateList": "Update now",
+    "listUpdated": "The list is up to date: {count} packages.",
+    "communityPage": "About the community list",
+    "adb": "adb",
+    "adbInUse": "Using adb {version} ({source}).",
+    "adbNone": "No adb found.",
+    "adbSource": {
+      "custom": "chosen here",
+      "managed": "downloaded by adbDebloat",
+      "path": "found on the PATH",
+      "sdk": "from Android Studio"
+    },
+    "adbPath": "adb to use",
+    "adbPathPlaceholder": "Empty: find it",
+    "adbPathHint": "The full path of adb.exe, if you want a particular one. A path copied with Copy as path works as it is.",
+    "save": "Save",
+    "about": "About",
+    "aboutBody": "adbDebloat removes the apps an Android phone came with, through adb and without root, and keeps every change reversible.",
+    "version": "Version {version}",
+    "source": "Source code on GitHub",
+    "license": "MIT License. The community list is GPL-3.0 and is downloaded, not included."
+  },
+  "errors": {
+    "no_adb": "Error: adb is not available. {detail}",
+    "adb_failed": "Error: adb said: {detail}",
+    "busy": "Error: wait for the running batch or download to finish.",
+    "invalid": "Error: \"{detail}\" is not right. An address looks like 192.168.1.23:41235 and a pairing code has six digits.",
+    "download_failed": "Error: the download failed. {detail}",
+    "list_failed": "Error: the community list could not be updated. {detail}",
+    "history_failed": "Error: the change was made, but the history could not be saved. {detail}",
+    "settings_not_saved": "Error: the settings were not saved. {detail}",
+    "internal": "Error: {detail}"
+  }
+}
