@@ -14,11 +14,14 @@ pub enum FetchError {
 /// total when the server says it.
 pub fn fetch(url: &str, max: u64, progress: &mut dyn FnMut(u64, Option<u64>)) -> Result<Vec<u8>, FetchError> {
     // The system's own TLS and certificate store (SChannel on Windows), so a proxy or antivirus
-    // certificate the computer trusts is trusted here too.
+    // certificate the computer trusts is trusted here too. The roots must be named: ureq's default
+    // swaps the store for a bundled list, and SChannel then rejects a chain that Windows builds to
+    // a root of its own (dl.google.com does).
     let agent: ureq::Agent = ureq::Agent::config_builder()
         .tls_config(
             ureq::tls::TlsConfig::builder()
                 .provider(ureq::tls::TlsProvider::NativeTls)
+                .root_certs(ureq::tls::RootCerts::PlatformVerifier)
                 .build(),
         )
         .user_agent(concat!("adbDebloat/", env!("CARGO_PKG_VERSION")))
