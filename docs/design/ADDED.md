@@ -12,6 +12,7 @@ is added: every color comes from `src/styles/tokens.css`, which `npm run check:c
 | Button `quiet` and `danger` | `components/Button.tsx` | Quiet has no outline until hovered; danger uses the `warn` outline and text. |
 | Checkbox | `components/Switch.tsx` | Native input, 3:1 outline, accent fill with a check; an indeterminate state for "some selected". |
 | Badge | `components.css` | A small outlined pill. `badge-ok`, `badge-info` and `badge-warn` use the status tokens and always carry a word and an icon, never color alone. |
+| Chip check | `components.css` | A chosen filter chip shows a check drawn by CSS with empty alternative text, so a screen reader hears the chip's name and "pressed", not "check mark". |
 | Safety badge | `components/Safety.tsx` | Recommended (ok, check), Advanced (info, info), Expert (warn, alert), Unsafe (warn, lock), Unknown (neutral). |
 | Segmented control | `components/Misc.tsx`, `.tabs` | A pill group with `role="radiogroup"`; the chosen option wears the accent tint. |
 | Text field | `components/Misc.tsx` | Bugra's field with a label above and a hint below; monospace for addresses and paths. |
